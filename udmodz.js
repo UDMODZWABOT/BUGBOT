@@ -689,7 +689,7 @@ reply(response)
 switch(command) {
 
 case 'alive': case 'Hi': case 'help': {
-udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: `SL UD TECHSHOW`.repeat(10000), serverMessageId: 2 }},{quoted: m})
+udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: 'SL UD TECHSHOW',repeat(10000), serverMessageId: 2 }},{quoted: m})
 reply(`┏─╴[ \`𝗨𝗗𝗕𝗢𝗧𝘇\` ] ──┓
 │ 𝗛i *${pushname}*
 │ *${timee}*
@@ -707,7 +707,7 @@ your phones ram and processor`)
 break
 
 case 'menu': {
-udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: `SL UD TECHSHOW`.repeat(10000), serverMessageId: 2 }},{quoted: m})
+udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: 'SL UD TECHSHOW',repeat(10000), serverMessageId: 2 }},{quoted: m})
 reply(`┏─╴[ \`𝗨𝗗𝗕𝗢𝗧𝘇\` ] ──┓
 │ 𝗛𝗜 *${pushname}*
 │ *${timee}*
@@ -1980,7 +1980,7 @@ break;
 
 
 case 'owner': case 'script': case 'link': {
-udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: `SL UD TECHSHOW`.repeat(10000), serverMessageId: 2 }},{quoted: m})
+udmodz.sendMessage(m.chat, {audio: fs.readFileSync('./menu.mp3'), mimetype:'audio/mpeg', ptt: true}, contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363183696686259@newsletter', newsletterName: 'SL UD TECHSHOW',repeat(10000), serverMessageId: 2 }},{quoted: m})
 reply(m.chat, { text: '`┏─╴[ \`𝗨𝗗𝗕𝗢𝗧𝘇\` ] ──┓
 │ 𝗛i *${pushname}*
 │ *${timee}*
