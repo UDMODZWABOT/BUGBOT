@@ -27,6 +27,8 @@
       
       $ npm install
 
+      $ npm install pm2 -g
+
       $ npm start
 
 <p align="left">° it will ask for your number.enter your number with international form like 94704638406</p>
@@ -72,6 +74,8 @@ _Installation_
       $ git clone https://github.com/UDMODZ/BUGBOT
 
       $ npm install
+
+      $ npm install pm2 -g
 
 ```
 
