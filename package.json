@@ -4,7 +4,7 @@
   "description": "base",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name "bugbot"
+    "start": "pm2 start index.js",
   },
   "author": "UDMODZ",
   "license": "MIT",
