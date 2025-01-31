@@ -27,8 +27,14 @@
       
       $ npm install
 
+      $ npm install pm2 -g
+
       $ npm start
 
+<p align="left">Start prmenantly </p>
+
+      $ pm2 start index.js --name "my-app"
+      
 <p align="left">° it will ask for your number.enter your number with international form like 94704638406</p>
 <p align="left">° After that it will give you a Eight digit code.go to whatsapp->three dots-> linked devices->link a new device->link with phone number insted . now type the eight digit code and wait till linking finishes.
 <p align="left">° You did it 😇 type .menu to get menu</p>
@@ -73,6 +79,10 @@ _Installation_
 
       $ npm install
 
+      $ npm install pm2 -g
+
+      $ npm start
+
 ```
 
 _Start_
@@ -82,7 +92,8 @@ _Start_
 ```
       $ cd BUGBOT
 
-      $ npm start
+      $ pm2 start index.js --name "my-app"
+
 ```
 
 <p align="left">° it will ask for your number.enter your number with international form like 94704638406</p>
